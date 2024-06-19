@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT"
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
 }
 
 def targetJavaVersion = 17
@@ -48,6 +49,8 @@ processResources {
     }
 }
 
+
+
 def customJarDir = file('C:\\Users\\Thomas\\Desktop\\serveur_test\\plugins\\')
 
 tasks.register('copyJar', Copy) {
@@ -59,3 +62,4 @@ tasks.register('copyJar', Copy) {
 tasks.named('build') {
     finalizedBy('copyJar')
 }
+

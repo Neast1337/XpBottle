@@ -1,30 +1,22 @@
-name: XpBottle
-main: org.neast.xpbottle.XpBottle
+name: Bottlexp
 version: 1.0
+main: org.neast.bottlexp.Bottlexp
 api-version: 1.19
-author: Neast
-website: https://www.spigotmc.org/resources/xpbottle-full-config.117444/
-description: >
-  Un plugin pour convertir l'expérience en bouteilles d'expérience. Pour plus d'informations, visitez [le site Web du plugin](https://example.com/xpbottle).
+
 commands:
   xpbottle:
-    description: Convert your XP to bottles
-    usage: /xpbottle [reload]
-    permission: xpbottle.use
-    permission-message: Vous n'avez pas la permission d'utiliser cette commande. Pour obtenir de l'aide, visitez [notre support en ligne](https://example.com/support).
+    description: Convertit votre XP en papier enchanté.
+    usage: /xpbottle
+    permission: bottlexp.use
+  xpbottle reload:
+    description: Recharge la configuration de BottleXP.
+    usage: /xpbottle reload
+    permission: bottlexp.reload
+
 permissions:
-  xpbottle.use:
-    description: Allows the player to use the /xpbottle command
+  bottlexp.reload:
+    description: Permet de recharger la configuration de BottleXP.
+    default: op
+  bottlexp.use:
+    description: Permet aux joueurs de convertir leur XP en papier enchanté.
     default: true
-  xpbottle.reload:
-    description: Allows the player to reload the plugin configuration
-    default: op
-  xpbottle.nocooldown:
-    description: Allows the player to bypass the cooldown
-    default: op
-  xpbottle.vip:
-    description: VIP permission with reduced cooldown
-    default: false
-  xpbottle.vipplus:
-    description: VIP+ permission with further reduced cooldown
-    default: false
