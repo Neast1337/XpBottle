@@ -1,0 +1,20 @@
+messages:
+  prefix: "&a[BouteilleXP]&r "  # The prefix that will be displayed before each message from the plugin
+  only_players: "This command can only be used by players."  # Message displayed if the command is executed by someone other than a player
+  no_permission_reload: "You do not have permission to reload the configuration."  # Message displayed if the player does not have permission to reload the configuration
+  config_reloaded: "Configuration reloaded."  # Message displayed when the configuration is reloaded
+  no_permission_use: "You do not have permission to use this command."  # Message displayed if the player does not have permission to use the main command
+  cooldown_wait: "You must wait {time} before you can use this command again."  # Message displayed when the player must wait before reusing the command, with the remaining time inserted
+  not_enough_xp: "You do not have enough experience to create a bottle."  # Message displayed when the player does not have enough experience to create a bottle
+  inventory_full: "Your inventory is full."  # Message displayed when the player's inventory is full and they cannot receive more bottles
+  xp_converted: "Converted {totalXP} XP into {bottles} bottles."  # Message displayed when the player's experience is converted into bottles, with the total experience and the number of bottles inserted
+  time_format:
+    years: "{years} years"  # Display format for years in cooldown time
+    months: "{months} months"  # Display format for months in cooldown time
+    weeks: "{weeks} weeks"  # Display format for weeks in cooldown time
+    days: "{days} days"  # Display format for days in cooldown time
+    hours: "{hours} hours"  # Display format for hours in cooldown time
+    minutes: "{minutes} minutes"  # Display format for minutes in cooldown time
+    seconds: "{seconds} seconds"  # Display format for seconds in cooldown time
+cooldowns:
+  default: 3600 # 1 hour in seconds, default cooldown
