@@ -1,5 +1,7 @@
-name: Bottlexp
-version: 1.0
+name: XpBottle
+version: 1.2
+author: Neast
+website: https://www.spigotmc.org/resources/xpbottle-%E2%9C%A8-itemsadder-%E2%AD%90-optimize-xp-management-with-enhanced-item-integration.117444/
 main: org.neast.bottlexp.Bottlexp
 api-version: 1.19
 
