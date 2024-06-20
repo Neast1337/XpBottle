@@ -100,5 +100,3 @@ We welcome contributions to the XP Bottle plugin! To contribute:
 For any issues, suggestions, or feedback, please [open an issue](https://github.com/Neast1337/XpBottle/issues) on GitHub.
 
 ---
-
-This documentation is tailored for GitHub and provides comprehensive information on installation, commands, events, configuration, compatibility, data management, technical details, usage instructions, contributing guidelines, and support links. Adjust the placeholders (`yourusername`, `YourFeature`, etc.) with your actual GitHub username and feature branch name as necessary.
