@@ -100,3 +100,12 @@ We welcome contributions to the XP Bottle plugin! To contribute:
 For any issues, suggestions, or feedback, please [open an issue](https://github.com/Neast1337/XpBottle/issues) on GitHub.
 
 ---
+
+---
+
+Ownership Statement
+This AntiAFK plugin is an original creation owned exclusively by Neast. All rights to the source code, configurations, and any other part of the plugin are reserved to [Your Name]. No individual or entity is permitted to reproduce, copy, redistribute, or modify this plugin without the express permission of Neast.
+
+Any infringement of this policy will be handled in accordance with applicable copyright laws.
+
+For inquiries regarding the use of the plugin or to request specific permissions, please contact Neast via [Discord](https://discord.gg/jjEGrtt9t4).
